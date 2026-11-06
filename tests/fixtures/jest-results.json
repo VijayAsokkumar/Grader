@@ -1,0 +1,7 @@
+{
+ "numTotalTests": 2,
+ "testResults": [{"name":"tests/ui.test.js","assertionResults":[
+ {"fullName":"renders home","status":"passed","duration":10},
+ {"fullName":"creates order","status":"failed","duration":20,"failureMessages":["expected 200 received 500"]}
+ ]}]
+}

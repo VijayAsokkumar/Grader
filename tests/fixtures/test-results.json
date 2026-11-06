@@ -1,0 +1,8 @@
+{
+  "stats": {"expected": 1, "unexpected": 1, "flaky": 1},
+  "suites": [{"title":"tests/shop.spec.ts","specs":[
+    {"title":"buy an item", "tests":[{"status":"expected", "results":[{"status":"passed","duration":22}]}]},
+    {"title":"flaky checkout", "tests":[{"status":"flaky", "results":[{"status":"failed","duration":13,"error":{"message":"locator not found"}},{"status":"passed","duration":15}]}]},
+    {"title":"login failure", "tests":[{"status":"unexpected", "results":[{"status":"failed","duration":20,"error":{"message":"auth timeout"}}]}]}
+  ]}]
+}

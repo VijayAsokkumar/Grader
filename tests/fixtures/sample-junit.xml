@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite tests="6" name="checkout" time="1.1">
+  <testcase classname="checkout" name="add item" time="0.1" />
+  <testcase classname="checkout" name="remove item" time="0.1" />
+  <testcase classname="checkout" name="pay by card" time="0.2"><failure message="locator not found: #submit" /></testcase>
+  <testcase classname="account" name="log in" time="0.2"><failure message="auth token expired" /></testcase>
+  <testcase classname="account" name="log out" time="0.1" />
+  <testcase classname="account" name="pending feature" time="0.4"><skipped/></testcase>
+</testsuite>

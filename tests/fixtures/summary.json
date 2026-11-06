@@ -1,0 +1,4 @@
+{
+ "metrics":{"checks":{"values":{"passes":3,"fails":1}}},
+ "root_group":{"name":"default","checks":[{"name":"status 200","passes":3,"fails":1}],"groups":[]}
+}
